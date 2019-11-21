@@ -16,7 +16,7 @@
 
 <p align="center"> 🌦 A simple weather application built with <b>React.js</b>, <b>SASS</b>
 <br>
-<a href="">Demo Link</a>
+<a href="https://mxue2.github.io/Weather-App/">Demo Link</a>
 </p>
 
 ## 📝 Table of Contents
@@ -32,7 +32,7 @@
 Weather App is a website which users can search the weather condition in any place around the world. It supports automatically change the background based on different weather conditions. The weather app is inspiring designed and implemented with lots of animated modules and minimalist website layout.
 
 ## 🎥 Demo <a name = "demo"></a>
-- Demo URL: 
+- Demo URL: https://mxue2.github.io/Weather-App/
 
 ## 💭 How it works <a name = "working"></a>
 
