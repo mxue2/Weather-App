@@ -1,0 +1,10 @@
+
+@import "./sass/variables";
+@import "./sass/base";
+
+// components
+@import "./components/app/index";
+@import "./components/current-weather/index";
+@import "./components/search-bar/index";
+@import "./components/detail-weather/index";
+@import "./components/detail-forecast/index";

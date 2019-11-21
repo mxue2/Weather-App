@@ -1,0 +1,56 @@
+.current-weather-container {
+  display: block;
+  height: 35rem;
+  position: relative;
+}
+
+.celus-container{
+  position: absolute;
+  bottom: 5rem;
+  left: $m-in-x;
+  width: calc(100% - #{$m-in-x} - #{$m-in-sx});
+  > h1 {
+    font-size: $font-xxl;
+    font-weight: 700;
+    float: left;
+  }
+
+  > p {
+    margin-top: calc(#{$font-xxl} - #{$font-lg});
+    margin-left: 1rem;
+    float: left;
+    font-size: $font-lg
+  }
+
+  > img {
+    margin-top: calc(#{$font-xxl} - #{$font-lg});
+    float: right;
+    opacity: .9
+  }
+}
+
+.line-divider{
+  position: absolute;
+  bottom: 7rem;
+  left: $m-in-x;
+  width: calc(100% - #{$m-in-x} - #{$m-in-sx});
+  border: 1px $color-gray6 solid;
+}
+
+.info-container {
+  position: absolute;
+  bottom: 2.5rem;
+  left: $m-in-x;
+  width: calc(100% - #{$m-in-x} - #{$m-in-sx});
+  font-size: $font-sm;
+  text-transform: uppercase;
+  color: $color-gray6;
+  
+  &_city {
+    float: left;
+  }
+
+  &_date {
+    float: right;
+  }
+}

@@ -1,0 +1,66 @@
+.detail-temperature-container{
+  text-align: center;
+  font-size: $font-xsm;
+
+  & > p {
+    text-align: left;
+    margin: $m-in-sy calc( (100% - #{$window-right-size}) /2);
+    font-size: $font-sm;
+  }
+}
+
+
+.igFrameBar{
+  display: inline-block;
+  width: $window-right-size;
+  background-color: rgba($color: $color-gray2, $alpha: 0.5);
+  border-radius: 1.5rem;
+  height:$bar-height;
+  position:relative;
+
+  &::before{
+    content:"";
+    width:100%;
+    height:1px;
+    background:$color-gray3;
+    position:absolute;
+    top:50%;
+    left: 0;
+  }
+
+  &::after{
+    content:"";
+    width:100%;
+    height:50%;
+    background:transparent;
+    position:absolute;
+    top:25%;
+    left: 0;
+    border-top:1px solid $color-gray3;
+    border-bottom:1px solid $color-gray3;
+  }
+
+  &-igData{
+    width:1rem;
+    position:absolute;
+    bottom:1px;
+    float:left;
+    border-radius: 1.5rem;
+    background: $color-gray1;
+    height:0px;
+    
+    &-degree {
+      position:absolute;
+      top:-$font-md;
+      right: -$font-xsm/2;
+
+    }
+  
+    &-time {
+      position:absolute;
+      bottom:-$font-md;
+      right: 0;
+      text-align:left;
+    }
+  }
+}
